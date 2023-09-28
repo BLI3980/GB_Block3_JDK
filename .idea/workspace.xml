@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/GameWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/SettingsWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/Seminar01Tasks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z. Temp/misc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/GameWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/SettingsWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/SettingsWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +43,14 @@
     "last_opened_file_path": "C:/_GB/12_JDK"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ru.gb.jdk.one.online.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="_JDK" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.jdk.one.online.Main" />
       <module name="_JDK" />
@@ -78,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.ru.gb.jdk.one.online.Main" />
         <item itemvalue="Application.Main" />
       </list>
