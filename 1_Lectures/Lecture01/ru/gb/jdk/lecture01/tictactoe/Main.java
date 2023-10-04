@@ -1,4 +1,4 @@
-package ru.gb.jdk.one.online;
+package ru.gb.jdk.lecture01.tictactoe;
 
 public class Main {
     public static void main(String[] args) {

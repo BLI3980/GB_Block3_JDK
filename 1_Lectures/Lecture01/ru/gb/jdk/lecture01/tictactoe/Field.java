@@ -1,4 +1,4 @@
-package ru.gb.jdk.one.online;
+package ru.gb.jdk.lecture01.tictactoe;
 
 import javax.swing.*;
 import java.awt.*;
@@ -26,6 +26,7 @@ public class Field extends JPanel {
     private final int EMPTY_DOT = 0;
     private int fieldSizeX = 3;
     private int fieldSizeY = 3;
+    private int winLength = 3;
     private char[][] field;
     private int panelHeight;
     private int panelWidth;
@@ -69,7 +70,10 @@ public class Field extends JPanel {
     void startNewGame(int mode, int fieldSizeX, int fieldSizeY, int winLen) {
         System.out.printf("Mode: %d; \nSize: x=%d, y=%d; \nWin Length: %d\n",
                 mode, fieldSizeX, fieldSizeY, winLen);
-        initField();
+        this.fieldSizeX = fieldSizeX;
+        this.fieldSizeY = fieldSizeY;
+        this.winLength = winLen;
+        initField(fieldSizeX, fieldSizeY);
         isGameOver = false;
         isInitialized = true;
         repaint();
@@ -93,15 +97,15 @@ public class Field extends JPanel {
         if (!isInitialized) return;
         panelHeight = getHeight();
         panelWidth = getWidth();
-        cellHeight = panelHeight / 3;
-        cellWidth= panelWidth / 3;
+        cellHeight = panelHeight / fieldSizeY;
+        cellWidth= panelWidth / fieldSizeX;
 
         g.setColor(Color.BLACK);
-        for (int h = 0; h < 3; h++) {
+        for (int h = 0; h < fieldSizeY; h++) {
             int y = h * cellHeight;
             g.drawLine(0, y, panelWidth, y);
         }
-        for (int w = 0; w < 3; w++) {
+        for (int w = 0; w < fieldSizeX; w++) {
             int x = w * cellWidth;
             g.drawLine(x, 0, x, panelHeight);
         }
@@ -134,9 +138,9 @@ public class Field extends JPanel {
     /**
      * Field initialization method
      */
-    private void initField() {
-        fieldSizeX = 3;
-        fieldSizeY = 3;
+    private void initField(int fieldSizeX, int fieldSizeY) {
+//        fieldSizeX = 3;
+//        fieldSizeY = 3;
         field = new char[fieldSizeY][fieldSizeX];
         for (int i = 0; i < fieldSizeY; i++) {
             for (int j = 0; j < fieldSizeX; j++) {
@@ -169,6 +173,8 @@ public class Field extends JPanel {
      * AI turn method
      */
     private void aiTurn() {
+        if (turnAiWinCell()) return;
+        if (turnHumanWinCell()) return;
         int x, y;
         do {
             x = RANDOM.nextInt(fieldSizeX);
@@ -177,23 +183,93 @@ public class Field extends JPanel {
         field[y][x] = AI_DOT;
     }
 
+    private boolean turnAiWinCell()  {
+        for (int i = 0; i < fieldSizeY; i++) {
+            for (int j = 0; j < fieldSizeX; j++) {
+                if (isEmptyCell(j, i)) {
+                    field[i][j] = AI_DOT;
+                    if (checkWin(AI_DOT)) return true;
+                    field[i][j] = EMPTY_DOT;
+                }
+            }
+        }
+        return false;
+    }
+
+    private boolean turnHumanWinCell() {
+        for (int i = 0; i < fieldSizeY; i++) {
+            for (int j = 0; j < fieldSizeX; j++) {
+                if (isEmptyCell(j, i)) {
+                    field[i][j]  = HUMAN_DOT;
+                    if (checkWin(HUMAN_DOT)) {
+                        field[i][j] = AI_DOT;
+                        return true;
+                    }
+                    field[i][j] = EMPTY_DOT;
+                }
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Method for checking if win length has occurred.
+     * First, the method checks whether cell with coordinates to the right by win length and down by win length
+     * is actually still within the play field or not. If not no further checks are needed as we have reached
+     * to the end.
+     * Second, the method checks if actually win length has occurred horizontally, vertically or on one of
+     * diagonals.
+     * @param x
+     * @param y
+     * @param xChange
+     * @param yChange
+     * @param winLen
+     * @param c
+     * @return
+     */
+    private boolean checkLine(int x, int y, int xChange, int yChange, int winLen, int c) {
+        // checking if rightmost by X and bottommost by Y cells exist in play field.
+        final int farX = x + (winLen - 1) * xChange;
+        final int farY = y + (winLen - 1) * yChange;
+        if (!isValidCell(farX, farY)) return false;
+
+        // checking if win length actually occurred (horizontally, vertically and on both diagonals)
+        for (int i = 0; i < winLen; i++) {
+            if (field[y + i * yChange][x + i * xChange] != c) return false;
+        }
+        return true;
+    }
     /**
      * Method for checking if win situation occurred.
      * @param dot
      * @return
      */
     private boolean checkWin(int dot) {
-        // Check for any of horizontals
-        if (field[0][0] == dot && field[0][1] == dot && field[0][2] == dot) return true;
-        if (field[1][0] == dot && field[1][1] == dot && field[1][2] == dot) return true;
-        if (field[2][0] == dot && field[2][1] == dot && field[2][2] == dot) return true;
-        // Check for any of verticals
-        if (field[0][0] == dot && field[1][0] == dot && field[2][0] == dot) return true;
-        if (field[0][1] == dot && field[1][1] == dot && field[2][1] == dot) return true;
-        if (field[0][2] == dot && field[1][2] == dot && field[2][2] == dot) return true;
-        // Check for any of diagonals
-        if (field[0][0] == dot && field[1][1] == dot && field[2][2] == dot) return true;
-        if (field[0][2] == dot && field[1][1] == dot && field[2][0] == dot) return true;
+//        // <region> Simple algorithm for 3x3 field with 3 wins
+//        // Check for any of horizontals
+//        if (field[0][0] == dot && field[0][1] == dot && field[0][2] == dot) return true;
+//        if (field[1][0] == dot && field[1][1] == dot && field[1][2] == dot) return true;
+//        if (field[2][0] == dot && field[2][1] == dot && field[2][2] == dot) return true;
+//        // Check for any of verticals
+//        if (field[0][0] == dot && field[1][0] == dot && field[2][0] == dot) return true;
+//        if (field[0][1] == dot && field[1][1] == dot && field[2][1] == dot) return true;
+//        if (field[0][2] == dot && field[1][2] == dot && field[2][2] == dot) return true;
+//        // Check for any of diagonals
+//        if (field[0][0] == dot && field[1][1] == dot && field[2][2] == dot) return true;
+//        if (field[0][2] == dot && field[1][1] == dot && field[2][0] == dot) return true;
+//        // <end region>
+        // <region> Algorithm which checks win condition on any size of play field and for any win length
+        for (int i = 0; i < fieldSizeX; i++) {
+            for (int j = 0; j < fieldSizeY; j++) {
+                if (checkLine(i, j, 1, 0, winLength, dot)) return true;
+                if (checkLine(i, j, 1, 1, winLength, dot)) return true;
+                if (checkLine(i, j, 0, 1, winLength, dot)) return true;
+                if (checkLine(i, j, 1, -1, winLength, dot)) return true;
+            }
+        }
+
+        // <end region>
+
 
         return false;
     }

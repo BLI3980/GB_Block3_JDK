@@ -1,4 +1,4 @@
-package ru.gb.jdk.one.online;
+package ru.gb.jdk.lecture01.tictactoe;
 
 import javax.swing.*;
 import java.awt.*;
