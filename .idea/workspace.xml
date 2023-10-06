@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/Background.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/MainCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/MainWindow.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +53,16 @@
       <recent name="C:\_GB\12_JDK\2_Seminars\Seminar01\ru\gb\jdk\seminar01\tasks04_serverStart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.gb.jdk.lecture01.tictactoe.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.lecture02.Main" />
       <module name="_JDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.jdk.lecture02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ru.gb.jdk.lecture01.tictactoe.Main" />
         <item itemvalue="Application.ru.gb.jdk.seminar01.tasks04_serverStart.Main" />
         <item itemvalue="Application.ru.gb.jdk.seminar01.tasks05_serverChat.Main" />
         <item itemvalue="Application.ru.gb.jdk.one.online.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
