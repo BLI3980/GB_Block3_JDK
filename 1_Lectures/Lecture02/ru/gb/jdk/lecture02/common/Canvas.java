@@ -1,13 +1,16 @@
-package ru.gb.jdk.lecture02;
+package ru.gb.jdk.lecture02.common;
+
+import ru.gb.jdk.lecture02.circles.Window;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class Canvas extends JPanel {
-    private final Window controller;
+//    private final Window controller;
+    private final CanvasRepaintListener controller;
     private long lastFrameTime;
 
-    public Canvas(Window controller) {
+    public Canvas(CanvasRepaintListener controller) {
 //        setBackground(Color.CYAN);
         this.controller = controller;
         lastFrameTime = System.nanoTime();

@@ -1,8 +1,8 @@
-package ru.gb.jdk.lecture02;
+package ru.gb.jdk.lecture02.common;
 
 import java.awt.*;
 
-public abstract class Sprite {
+public abstract class Sprite implements Interactable {
     protected float x;
     protected float y;
     protected float halfWidth;
@@ -20,6 +20,6 @@ public abstract class Sprite {
     protected float getWidth() {return 2f * halfWidth;}
     protected float getHeight() {return 2f * halfHeight;}
 
-    void update(Canvas canvas, float deltaTime) {}
-    void render(Canvas canvas, Graphics g) {}
+    public void update(Canvas canvas, float deltaTime) {}
+    public void render(Canvas canvas, Graphics g) {}
 }

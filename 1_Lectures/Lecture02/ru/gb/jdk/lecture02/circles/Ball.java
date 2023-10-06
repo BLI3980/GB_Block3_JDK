@@ -1,4 +1,7 @@
-package ru.gb.jdk.lecture02;
+package ru.gb.jdk.lecture02.circles;
+
+import ru.gb.jdk.lecture02.common.Canvas;
+import ru.gb.jdk.lecture02.common.Sprite;
 
 import java.awt.*;
 import java.util.Random;
@@ -18,14 +21,14 @@ public class Ball extends Sprite {
     }
 
     @Override
-    void render(Canvas canvas, Graphics g) {
+    public void render(ru.gb.jdk.lecture02.common.Canvas canvas, Graphics g) {
         g.setColor(color);
         g.fillOval((int) getLeft(), (int) getTop(),
                 (int) getWidth(), (int) getHeight());
     }
 
     @Override
-    void update(Canvas canvas, float deltaTime) {
+    public void update(Canvas canvas, float deltaTime) {
         x += vX * deltaTime;
         y += vY * deltaTime;
 
