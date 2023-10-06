@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks04_serverStart/Seminar01Task04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/LogArchive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/Seminar01Task05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/MainWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/lecture01/tictactoe/Seminar01Tasks01-03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/lecture01/tictactoe/Seminar01Tasks01-03.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/ChatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/ChatWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,12 @@
     "last_opened_file_path": "C:/_GB/12_JDK/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_GB\12_JDK\2_Seminars\Seminar01\ru\gb\jdk\seminar01\tasks05_serverChat" />
+      <recent name="C:\_GB\12_JDK\2_Seminars\Seminar01\ru\gb\jdk\seminar01\tasks04_serverStart" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.ru.gb.jdk.lecture01.tictactoe.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
