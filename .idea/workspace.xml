@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks04_serverStart/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks04_serverStart/ServerWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/ChatWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks04_serverStart/Seminar01Task04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/LogArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/Seminar01Task05.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/Seminar01Tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/Seminar01Tasks01-03.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/SettingsWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/one/online/SettingsWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/lecture01/tictactoe/Seminar01Tasks01-03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture01/ru/gb/jdk/lecture01/tictactoe/Seminar01Tasks01-03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/ChatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat/ChatWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/_GB/12_JDK&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/_GB/12_JDK/2_Seminars/Seminar01/ru/gb/jdk/seminar01/tasks05_serverChat"
   }
-}</component>
-  <component name="RunManager" selected="Application.ru.gb.jdk.seminar01.tasks05_serverChat.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.ru.gb.jdk.lecture01.tictactoe.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="_JDK" />
@@ -55,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.jdk.one.online.Main" />
+    <configuration name="ru.gb.jdk.lecture01.tictactoe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.lecture01.tictactoe.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.jdk.one.online.*" />
+          <option name="PATTERN" value="ru.gb.jdk.lecture01.tictactoe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.gb.jdk.seminar01.tasks05_serverChat.Main" />
+        <item itemvalue="Application.ru.gb.jdk.lecture01.tictactoe.Main" />
         <item itemvalue="Application.ru.gb.jdk.seminar01.tasks04_serverStart.Main" />
+        <item itemvalue="Application.ru.gb.jdk.seminar01.tasks05_serverChat.Main" />
         <item itemvalue="Application.ru.gb.jdk.one.online.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

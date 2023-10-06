@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -27,6 +29,8 @@ public class ChatWindow extends JFrame {
     private final JPanel panelBtm = new JPanel(new BorderLayout());
     private final JTextField textField = new JTextField();
     private final JButton btnSend = new JButton("Send");
+
+    private static String dateTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy.MM.dd hh:mm:ss"));
 
     public ChatWindow()  {
         // window properties
@@ -54,25 +58,53 @@ public class ChatWindow extends JFrame {
         add(scrollPane);
 
         setVisible(true);
+
+        // Listener for Start button
         btnStart.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                log.setText("Server entry successful.");
+                dateTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy.MM.dd hh:mm:ss"));
+                if (!LogArchive.isExist()) {
+                    LogArchive.create();
+                } else if (!LogArchive.isBlank()) {
+                    log.append(LogArchive.read());
+                }
+                log.append("Server entry successful at " + dateTime + "\n");
+                LogArchive.save(log.getText());
             }
         });
 
+        //Listener for Send button
         btnSend.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String login = loginField.getText().replace("Enter your username: ", "");
-                String dateTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy.MM.dd hh:mm:ss"));
-                log.append(dateTime + ", " + login + " : " + textField.getText() + "\n");
-//                log.setText(textField.getText());
-                System.out.println(loginField.getName());
-                textField.setText("");
+                sendText();
             }
         });
 
+        // Listener for Enter key pressing
+        textField.addKeyListener(new KeyListener() {
+            @Override
+            public void keyTyped(KeyEvent e) {}
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+                    sendText();
+                }
+            }
+            @Override
+            public void keyReleased(KeyEvent e) {}
+        });
+
+    }
+
+    // Method for actions when sending text to log area.
+    private void sendText(){
+        String login = loginField.getText().replace("Enter your username: ", "");
+        dateTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy.MM.dd hh:mm:ss"));
+        log.append(dateTime + ", " + login + " : " + textField.getText() + "\n");
+        LogArchive.save(log.getText());
+        textField.setText("");
     }
 
 }
