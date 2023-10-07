@@ -1,4 +1,4 @@
-package ru.gb.jdk.lecture02.interfacesExample;
+package ru.gb.jdk.lecture02.samples.interfacesExample;
 
 public class Man implements Human{
     @Override

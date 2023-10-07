@@ -7,6 +7,8 @@ import ru.gb.jdk.lecture02.common.Sprite;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class Window extends JFrame implements CanvasRepaintListener {
     private static final int POS_X = 400;
@@ -30,6 +32,12 @@ public class Window extends JFrame implements CanvasRepaintListener {
         }
 
         Canvas canvas = new Canvas(this);
+        canvas.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+            }
+        });
         add(canvas);
 
         setVisible(true);
