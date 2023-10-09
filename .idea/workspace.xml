@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/samples/anonymusClasses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/samples/exceptions/Exceptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/samples/interfacesExample/Bull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task01/ConsoleServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task01/LogServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task01/Seminar01Task04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task01/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task01/ServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task01/ServerWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task02/ClientThreadListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task02/ServerThreadListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/circles/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/circles/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/interfacesExample/Bull.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/interfacesExample/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/samples/interfacesExample/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/interfacesExample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/samples/interfacesExample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/interfacesExample/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/samples/interfacesExample/Man.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/interfacesExample/Minotaurus.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/samples/interfacesExample/Minotaurus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/interfacesExample/Ox.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture02/ru/gb/jdk/lecture02/samples/interfacesExample/Ox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/Tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/Tasks.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +47,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/_GB/12_JDK/1_Lectures/Lecture02/ru/gb/jdk/lecture02/samples",
+    "last_opened_file_path": "C:/_GB/12_JDK/2_Seminars/Seminar02/ru/gb/jdk/seminar02",
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_GB\12_JDK\2_Seminars\Seminar02\ru\gb\jdk\seminar02" />
       <recent name="C:\_GB\12_JDK\1_Lectures\Lecture02\ru\gb\jdk\lecture02\bricks" />
       <recent name="C:\_GB\12_JDK\2_Seminars\Seminar01\ru\gb\jdk\seminar01\tasks05_serverChat" />
       <recent name="C:\_GB\12_JDK\2_Seminars\Seminar01\ru\gb\jdk\seminar01\tasks04_serverStart" />
@@ -61,6 +62,7 @@
       <recent name="C:\_GB\12_JDK\1_Lectures\Lecture02\ru\gb\jdk\lecture02\sprites" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.gb.jdk.seminar02.task02" />
       <recent name="ru.gb.jdk.lecture02.common" />
       <recent name="ru.gb.jdk.lecture02.sprites" />
     </key>
@@ -68,7 +70,7 @@
       <recent name="ru.gb.jdk.lecture02.interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exceptional">
+  <component name="RunManager" selected="Application.ru.gb.jdk.seminar02.tasks04_serverStart.Main">
     <configuration name="Exceptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.lecture02.samples.exceptions.Exceptional" />
       <module name="_JDK" />
@@ -83,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.lecture02.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.seminar02.task01.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.jdk.lecture02.*" />
+          <option name="PATTERN" value="ru.gb.jdk.seminar02.task02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.jdk.seminar02.tasks04_serverStart.Main" />
         <item itemvalue="Application.Exceptional" />
         <item itemvalue="Application.ru.gb.jdk.lecture02.bricks.Main" />
         <item itemvalue="Application.ru.gb.jdk.lecture02.circles.Main" />
         <item itemvalue="Application.ru.gb.jdk.lecture02.interfacesExample.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
