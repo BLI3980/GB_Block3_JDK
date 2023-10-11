@@ -1,5 +1,6 @@
 package ru.jdk.lecture03.ex01;
 
+// Typical classes (non-generic)
 public class Main {
     public static void main(String[] args) {
         // Example 1.1

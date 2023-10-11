@@ -1,5 +1,6 @@
 package ru.jdk.lecture03.ex02;
 
+// Generic classes and methods examples
 public class Main {
     public static void main(String[] args) {
         Gbox<String> stringBox = new Gbox<>("Hello!");
