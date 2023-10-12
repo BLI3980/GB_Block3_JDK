@@ -1,6 +1,4 @@
-package ru.jdk.lecture03.ex05;
-
-import java.sql.SQLOutput;
+package ru.jdk.lecture03.ex05_upperLowerBounds;
 
 public class Animal {
     protected String name;

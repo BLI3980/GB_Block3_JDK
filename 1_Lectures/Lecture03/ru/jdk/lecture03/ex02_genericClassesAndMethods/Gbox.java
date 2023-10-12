@@ -1,17 +1,11 @@
-package ru.jdk.lecture03.ex06;
+package ru.jdk.lecture03.ex02_genericClassesAndMethods;
 
-public class Box<T>{
+public class Gbox<T>{
     private T value;
 
-    public Box() {
+    public Gbox(T value) {
+        this.value = value;
     }
-
-    // Generic constructor
-    <U> Box(U u){}
-
-//    public Box(T value) {
-//        this.value = value;
-//    }
 
     public T getValue() {
         return value;

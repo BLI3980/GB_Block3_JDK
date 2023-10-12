@@ -1,11 +1,17 @@
-package ru.jdk.lecture03.ex02;
+package ru.jdk.lecture03.ex06_typeInference;
 
-public class Gbox<T>{
+public class Box<T>{
     private T value;
 
-    public Gbox(T value) {
-        this.value = value;
+    public Box() {
     }
+
+    // Generic constructor
+    <U> Box(U u){}
+
+//    public Box(T value) {
+//        this.value = value;
+//    }
 
     public T getValue() {
         return value;

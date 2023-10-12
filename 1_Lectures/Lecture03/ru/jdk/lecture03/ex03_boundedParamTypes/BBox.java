@@ -1,4 +1,4 @@
-package ru.jdk.lecture03.ex03;
+package ru.jdk.lecture03.ex03_boundedParamTypes;
 
 public class BBox<V extends Number>{
     private V value;

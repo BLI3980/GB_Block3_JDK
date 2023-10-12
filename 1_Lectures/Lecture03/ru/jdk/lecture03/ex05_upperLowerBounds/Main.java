@@ -1,4 +1,4 @@
-package ru.jdk.lecture03.ex05;
+package ru.jdk.lecture03.ex05_upperLowerBounds;
 
 import java.util.ArrayList;
 import java.util.Arrays;

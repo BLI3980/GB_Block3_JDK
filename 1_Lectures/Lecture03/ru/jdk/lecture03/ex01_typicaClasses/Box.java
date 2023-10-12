@@ -1,4 +1,4 @@
-package ru.jdk.lecture03.ex01;
+package ru.jdk.lecture03.ex01_typicaClasses;
 
 public class Box {
     private Object obj;

@@ -1,8 +1,8 @@
-package ru.jdk.lecture03.ex06;
+package ru.jdk.lecture03.ex06_typeInference;
 
 import java.util.ArrayList;
 
-import static ru.jdk.lecture03.ex06.App.addBox;
+import static ru.jdk.lecture03.ex06_typeInference.App.addBox;
 
 //Type inference (вывод типов)
 public class Main {

@@ -5,19 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03/BBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex07_targetTypes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex07_targetTypes/Tbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Tbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex09_captureOf/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex09_captureOf/Tbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Orange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicaClasses/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicaClasses/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02/Gbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02_genericClassesAndMethods/Gbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02_genericClassesAndMethods/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03/BBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03_boundedParamTypes/BBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03_boundedParamTypes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex04_genericsNuances/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05_upperLowerBounds/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05_upperLowerBounds/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05_upperLowerBounds/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06_typeInference/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06_typeInference/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06_typeInference/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06_typeInference/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,17 +87,19 @@
       <recent name="ru.gb.jdk.lecture02.sprites" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.jdk.lecture03.ex09" />
+      <recent name="ru.jdk.lecture03.ex08" />
       <recent name="ru.jdk.lecture03.ex06" />
       <recent name="ru.gb.jdk.lecture02.interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.jdk.lecture03.ex05.Main">
+  <component name="RunManager" selected="Application.ru.jdk.lecture03.task02.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.jdk.lecture03.ex02.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.jdk.lecture03.ex02_genericClassesAndMethods.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.jdk.lecture03.ex02.*" />
+          <option name="PATTERN" value="ru.jdk.lecture03.ex02_genericClassesAndMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.jdk.seminar02.task03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.seminar02.task03.Main" />
+    <configuration name="ru.jdk.lecture03.ex05_upperLowerBounds.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.jdk.lecture03.ex05_upperLowerBounds.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.jdk.seminar02.task03.*" />
+          <option name="PATTERN" value="ru.jdk.lecture03.ex05_upperLowerBounds.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.jdk.seminar02.task04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.seminar02.task04.Main" />
+    <configuration name="ru.jdk.lecture03.ex08_wildcardSymbols.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.jdk.lecture03.ex08_wildcardSymbols.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.jdk.seminar02.task04.*" />
+          <option name="PATTERN" value="ru.jdk.lecture03.ex08_wildcardSymbols.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.jdk.lecture03.ex01.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.jdk.lecture03.ex01.Main" />
+    <configuration name="ru.jdk.lecture03.task01.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.jdk.lecture03.task01.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.jdk.lecture03.ex01.*" />
+          <option name="PATTERN" value="ru.jdk.lecture03.task01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.jdk.lecture03.ex05.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.jdk.lecture03.ex05.Main" />
+    <configuration name="ru.jdk.lecture03.task02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.jdk.lecture03.task02.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.jdk.lecture03.ex05.*" />
+          <option name="PATTERN" value="ru.jdk.lecture03.task02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.jdk.lecture03.ex05.Main" />
+        <item itemvalue="Application.ru.jdk.lecture03.task02.Main" />
+        <item itemvalue="Application.ru.jdk.lecture03.task01.Main" />
+        <item itemvalue="Application.ru.jdk.lecture03.ex08_wildcardSymbols.Main" />
+        <item itemvalue="Application.ru.jdk.lecture03.ex05_upperLowerBounds.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ru.jdk.lecture03.ex01.Main" />
-        <item itemvalue="Application.ru.gb.jdk.seminar02.task04.Main" />
-        <item itemvalue="Application.ru.gb.jdk.seminar02.task03.Main" />
       </list>
     </recent_temporary>
   </component>

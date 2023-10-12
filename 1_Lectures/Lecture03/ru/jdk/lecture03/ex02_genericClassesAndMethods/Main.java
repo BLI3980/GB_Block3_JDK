@@ -1,4 +1,4 @@
-package ru.jdk.lecture03.ex02;
+package ru.jdk.lecture03.ex02_genericClassesAndMethods;
 
 // Generic classes and methods examples
 public class Main {

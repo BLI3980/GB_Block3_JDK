@@ -1,6 +1,6 @@
-package ru.jdk.lecture03.ex06;
+package ru.jdk.lecture03.ex06_typeInference;
 
-import ru.jdk.lecture03.ex05.Animal;
+import ru.jdk.lecture03.ex05_upperLowerBounds.Animal;
 
 public class Cat extends Animal {
     protected Cat(String name) {

@@ -1,4 +1,4 @@
-package ru.jdk.lecture03.ex06;
+package ru.jdk.lecture03.ex06_typeInference;
 
 import java.util.List;
 
