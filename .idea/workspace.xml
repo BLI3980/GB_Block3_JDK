@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex07_targetTypes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex07_targetTypes/Tbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex08_wildcardSymbols/Tbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex09_captureOf/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex09_captureOf/Tbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/task02/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/Tasks.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicaClasses/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicaClasses/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02/Gbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02_genericClassesAndMethods/Gbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex02_genericClassesAndMethods/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03/BBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03_boundedParamTypes/BBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex03_boundedParamTypes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex04_genericsNuances/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05_upperLowerBounds/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05_upperLowerBounds/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex05_upperLowerBounds/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06_typeInference/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06_typeInference/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06_typeInference/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex06_typeInference/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/_GB/12_JDK&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/_GB/11a_Architecture",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\_GB\12_JDK\2_Seminars\Seminar02\ru\gb\jdk\seminar02\task04" />
