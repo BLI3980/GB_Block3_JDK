@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task01/GenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task02/CustomCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task02/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task03/CustomIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task04/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task04/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task04/Slacker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task04/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task04/Workplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/Tasks.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task04/BackendDev.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task04/BackendDev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/jdk/seminar02/task04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/Tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/Tasks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/Task01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/z. Temp/misc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/z. Temp/misc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task02/CustomCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task02/CustomCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
