@@ -20,7 +20,8 @@ public class Main {
             if (dev instanceof FrontendDev) {
                 System.out.println(dev.getClass().getSimpleName() + ": ");
                 ((FrontendDev) dev).doesFront();
-            } if (dev instanceof BackendDev) {
+            }
+            if (dev instanceof BackendDev) {
                 System.out.println(dev.getClass().getSimpleName() + ": ");
                 ((BackendDev) dev).doesBack();
             } else if (dev instanceof FullstackDev) {

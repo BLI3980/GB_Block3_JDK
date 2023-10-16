@@ -1,6 +1,6 @@
 package ru.gb.jdk.seminar02.task04;
 
-public class BackendDev extends Developer implements Backend{
+public class BackendDev extends Developer implements Backend {
     @Override
     void drinkCoffee() {
         System.out.println("Drinks coffee");

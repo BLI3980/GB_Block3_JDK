@@ -1,7 +1,3 @@
-import com.sun.jdi.Field;
-
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 //        int[][] array = fillArray(4, 5);
@@ -148,6 +144,7 @@ public class Main {
         return noWin;
     }
 
-
-
+    public static int byteShift(int value) {
+        return value >>1;
+    }
 }
