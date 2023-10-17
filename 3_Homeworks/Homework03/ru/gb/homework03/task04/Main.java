@@ -1,7 +1,5 @@
 package ru.gb.homework03.task04;
 
-import ru.gb.homework03.Pair;
-
 public class Main {
     public static void main(String[] args) {
         Pair<Integer, String> pair1 = new Pair<>(1, "String 1");

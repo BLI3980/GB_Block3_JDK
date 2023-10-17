@@ -1,4 +1,4 @@
-package ru.gb.homework03;
+package ru.gb.homework03.task04;
 
 public class Pair<T, V> {
     private T first;

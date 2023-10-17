@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task02/MyCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task03/Compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicaClasses/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicalClasses/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicaClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicalClasses/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework03/task02/CustomCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task01/MyCustomCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework03/task02/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework03/task02/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task01/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z. Temp/misc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/z. Temp/misc/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
