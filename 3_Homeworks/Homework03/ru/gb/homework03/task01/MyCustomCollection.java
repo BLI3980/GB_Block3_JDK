@@ -1,28 +1,29 @@
-package task02;
+package ru.gb.homework03.task01;
 
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.NoSuchElementException;
 
-public class CustomCollection<T> {
+public class MyCustomCollection<T> {
     private Object[] array;
     private int currentSize;
     private final int DEFAULT_CAPACITY = 10;
+    private MyIterator iterator;
 
-    public CustomCollection() {
+    public MyCustomCollection() {
         this.array = new Object[DEFAULT_CAPACITY];
         this.currentSize = 0;
+        this.iterator = new MyIterator();
     }
 
-    public void add(T t) {
+    /**
+     * Method for adding new element to the end of the array.
+     * @param element - the element to add.
+     */
+    public void add(T element) {
         ensureCapacity(currentSize + 1);
-        array[currentSize] = t;
+        array[currentSize] = element;
         currentSize++;
-//        Object[] temp = new Object[array.length + 1];
-//        for (int i = 0; i < array.length; i++) {
-//            temp[i] = array[i];
-//        }
-//        temp[temp.length - 1] = t;
-//        array = temp;
-
     }
 
     /**
@@ -53,7 +54,7 @@ public class CustomCollection<T> {
 
     /**
      * Method for removing element from the array by specifying its index
-     * @param index
+     * @param index - index of an element to delete
      */
 //    public void remove(int index) {
 //        if(index < 0 || index >= currentSize) {
@@ -66,7 +67,7 @@ public class CustomCollection<T> {
 
     /**
      * Method for finding the index of the first occurrence search element value of the array.
-     * @param element
+     * @param element - the value to find in the array
      * @return Returns null if no such element in the array
      */
     public Integer find(T element) {
@@ -76,6 +77,10 @@ public class CustomCollection<T> {
         return null;
     }
 
+    /**
+     * Utility method for ensuring sufficient capacity of current array
+     * @param minRequiredCapacity - minimum required capacity
+     */
     private void ensureCapacity(int minRequiredCapacity) {
         int oldCapacity = array.length;
         if (minRequiredCapacity > oldCapacity) {
@@ -87,8 +92,41 @@ public class CustomCollection<T> {
         }
     }
 
+    /**
+     * Method for converting the array to string
+     * @return
+     */
     public String info() {
         return Arrays.toString(array);
+    }
+
+    /**
+     * Method for iterating through not null elements of the array
+     */
+    public void iterate() {
+        while (iterator.hasNext()) {
+            T item = iterator.next();
+            if (item != null) System.out.println(item);
+        }
+    }
+
+
+    private class MyIterator implements Iterator<T>{
+        private int index = 0; // Initial position in the array
+
+        @Override
+        public boolean hasNext() {
+            return index < array.length;
+        }
+
+        @Override
+        public T next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException("No next element.");
+            } else {
+                return (T) array[index++];
+            }
+        }
     }
 
 

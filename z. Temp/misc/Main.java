@@ -27,7 +27,6 @@ public class Main {
 //        System.out.println(verticalWinSituation(array2, 4, 1, 2));
 
 
-
     }
 
     public static int[][] fillArray(int fieldSizeX, int fieldSizeY) {
@@ -147,4 +146,22 @@ public class Main {
     public static int byteShift(int value) {
         return value >>1;
     }
+
+    public static int sum(int a, int b) {
+        return a + b;
+    }
+
+    public static double sum(double a, double b) {
+        return a + b;
+    }
+
+    public static float sum(float a, float b) {
+        return a + b;
+    }
+
+    public static Long sum(Long a, Long b) {
+        return a + b;
+    }
+
+
 }

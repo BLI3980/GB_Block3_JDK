@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/Tasks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task02/MyCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task03/Compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task04/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task02/CustomCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/task02/CustomCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicaClasses/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicalClasses/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicaClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture03/ru/jdk/lecture03/ex01_typicalClasses/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework03/task02/CustomCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task01/MyCustomCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework03/task02/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework03/task02/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/task01/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z. Temp/misc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/z. Temp/misc/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +53,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/_GB/11a_Architecture",
+    "last_opened_file_path": "C:/_GB/5_Java",
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_GB\12_JDK\3_Homeworks\Homework03" />
       <recent name="C:\_GB\12_JDK\2_Seminars\Seminar02\ru\gb\jdk\seminar02\task04" />
       <recent name="C:\_GB\12_JDK\2_Seminars\Seminar02\ru\gb\jdk\seminar02" />
       <recent name="C:\_GB\12_JDK\1_Lectures\Lecture02\ru\gb\jdk\lecture02\bricks" />
       <recent name="C:\_GB\12_JDK\2_Seminars\Seminar01\ru\gb\jdk\seminar01\tasks05_serverChat" />
-      <recent name="C:\_GB\12_JDK\2_Seminars\Seminar01\ru\gb\jdk\seminar01\tasks04_serverStart" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\_GB\12_JDK\1_Lectures\Lecture02\ru\gb\jdk\lecture02\sprites" />
@@ -71,7 +81,7 @@
       <recent name="ru.gb.jdk.lecture02.interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.gb.seminar03.task04.Main">
+  <component name="RunManager" selected="Application.ru.gb.homework03.task04.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="_JDK" />
@@ -80,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar03.task01.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework03.task02.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.seminar03.task01.*" />
+          <option name="PATTERN" value="ru.gb.homework03.task02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.seminar03.task02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar03.task02.Main" />
+    <configuration name="ru.gb.homework03.task03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework03.task03.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.seminar03.task02.*" />
+          <option name="PATTERN" value="ru.gb.homework03.task03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.seminar03.task03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar03.task03.Main" />
+    <configuration name="ru.gb.homework03.task04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework03.task04.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.seminar03.task03.*" />
+          <option name="PATTERN" value="ru.gb.homework03.task04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.seminar03.task04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar03.task04.Main" />
+    <configuration name="task01.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task01.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.seminar03.task04.*" />
+          <option name="PATTERN" value="task01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.gb.seminar03.task04.Main" />
-        <item itemvalue="Application.ru.gb.seminar03.task03.Main" />
-        <item itemvalue="Application.ru.gb.seminar03.task02.Main" />
+        <item itemvalue="Application.ru.gb.homework03.task04.Main" />
+        <item itemvalue="Application.ru.gb.homework03.task03.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.ru.gb.seminar03.Main" />
+        <item itemvalue="Application.task01.Main" />
       </list>
     </recent_temporary>
   </component>
