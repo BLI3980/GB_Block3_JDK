@@ -1,6 +1,8 @@
 package ru.gb.seminar04.task04;
 
 import java.util.*;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class Personnel {
@@ -136,15 +138,17 @@ public class Personnel {
         return result;
     }
 
-//    public <R> List<? extends R> findSomething(
-//            Predicate<? super Employee> filter,
-//            Function<? super Employee, ? extends R> mapper) {
-//        var result = employeeList.stream().filter(filter).map(mapper).toList();
-//        var result1 = new ArrayList<>();
-//        for (Object o : result) {
-//            result1.add((R)o);
-//        }
-//        return result1;
-//    }
+    /**
+     * Method which universally finds result based on parameters
+     * @param filter - specifies what we need to find
+     * @param mapper - specifies what needs to be extracted from found data
+     * @return
+     * @param <R>
+     */
+    public <R> List<? extends R> findSomething(
+            Predicate<? super Employee> filter,
+            Function<? super Employee, ? extends R> mapper) {
+        return employeeList.stream().filter(filter).map(mapper).toList();
+    }
 
 }

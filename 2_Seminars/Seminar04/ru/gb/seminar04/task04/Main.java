@@ -26,9 +26,20 @@ public class Main {
         System.out.println("\nSearch phone number(s) by name: ");
         UI.printPersonnel(personnel.findPhoneByName("Ivan"));
 
-//        UI.printPersonnel(personnel.findSomething(
-//                p -> p.getName().equals("Ivan"),
-//                p -> p.getPhone()));
+        System.out.println("\nUniversal find:");
+        String searchName = "ivan";
+        var result = personnel.findSomething(
+                p -> p.getName().equalsIgnoreCase(searchName),
+                Employee::getPhone);
+        System.out.println("Phone number(s) of " + searchName + ": " + result);
+
+        int id = 333;
+        var result1 = personnel.findSomething(
+                p -> p.getPerNumber() == id,
+                Employee::getName);
+        System.out.println("Employee name of Personal ID " + id + ": " + result1);
+
+
 
     }
 }

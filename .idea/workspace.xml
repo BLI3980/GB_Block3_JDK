@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/Personnel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/UI.java" afterDir="false" />
+    <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="Seminar 04 in progress save 03.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/Tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/Tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/Personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar04/task04/Personnel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/_GB/12_JDK/2_Seminars/Seminar04",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/_GB/12_JDK/2_Seminars/Seminar04&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\_GB\12_JDK\3_Homeworks\Homework03" />
@@ -163,6 +161,21 @@
       <option name="presentableId" value="Default" />
       <updated>1695487940024</updated>
     </task>
+    <task id="LOCAL-00001" summary="Seminar04 in progress save 03.">
+      <created>1698174866744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698174866744</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Seminar 04 in progress save 03.">
+      <created>1698175428770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698175428770</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,5 +188,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Seminar04 in progress save 03." />
+    <MESSAGE value="Seminar 04 in progress save 03." />
+    <option name="LAST_COMMIT_MESSAGE" value="Seminar 04 in progress save 03." />
   </component>
 </project>

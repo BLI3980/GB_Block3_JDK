@@ -2,11 +2,11 @@ package ru.gb.seminar04.task04;
 
 public class Employee {
     private String name;
-    private int perNumber;
-    private int phone;
-    private int seniority;
+    private Integer perNumber;
+    private Integer phone;
+    private Integer seniority;
 
-    public Employee(String name, int perNumber, int phone, int seniority) {
+    public Employee(String name, Integer perNumber, Integer phone, Integer seniority) {
         this.name = name;
         this.perNumber = perNumber;
         this.phone = phone;
@@ -32,7 +32,7 @@ public class Employee {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(Integer phone) {
         this.phone = phone;
     }
 
@@ -40,7 +40,7 @@ public class Employee {
         return seniority;
     }
 
-    public void setSeniority(int seniority) {
+    public void setSeniority(Integer seniority) {
         this.seniority = seniority;
     }
 
