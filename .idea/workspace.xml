@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="Seminar 04 in progress save 03.">
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture05/ru/gb/lecture05/thread/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture05/ru/gb/lecture05/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture05/ru/gb/lecture05/thread/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture05/ru/gb/lecture05/thread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture05/ru/gb/lecture05/thread/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_Lectures/Lecture05/ru/gb/lecture05/thread/TicTac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,18 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/_GB/11a_Architecture",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/_GB/11a_Architecture&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\_GB\12_JDK\3_Homeworks\Homework03" />
@@ -73,7 +79,7 @@
       <recent name="ru.gb.jdk.lecture02.interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.gb.seminar04.task04.Main">
+  <component name="RunManager" selected="Application.ru.gb.lecture05.thread.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.seminar04.task03.Main" />
       <module name="_JDK" />
@@ -87,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.lecture04.collections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lecture04.collections.Main" />
+    <configuration name="ru.gb.lecture05.thread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lecture05.thread.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lecture04.collections.*" />
+          <option name="PATTERN" value="ru.gb.lecture05.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.lecture05.thread.Main" />
         <item itemvalue="Application.ru.gb.seminar04.task04.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ru.gb.seminar04.task02.Main" />
         <item itemvalue="Application.ru.gb.seminar04.task01.Main" />
-        <item itemvalue="Application.ru.gb.lecture04.collections.Main" />
       </list>
     </recent_temporary>
   </component>
