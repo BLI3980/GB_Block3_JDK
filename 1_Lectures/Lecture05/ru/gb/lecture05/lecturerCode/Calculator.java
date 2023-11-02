@@ -1,4 +1,4 @@
-package ru.gb.lecture05.thread;
+package ru.gb.lecture05.lecturerCode;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
@@ -8,8 +8,9 @@ import java.util.concurrent.Executors;
 
 public class Calculator {
     public static void main(String[] args) {
+        // Example shows how thread pools and task queueing works with threads
         Scanner in = new Scanner(System.in);
-        Queue<Task> queue = new ArrayDeque();
+        Queue<Task1> queue = new ArrayDeque();
 
         ExecutorService executor = Executors.newFixedThreadPool(2);
         Thread taskService = new Thread(() -> {
@@ -17,10 +18,10 @@ public class Calculator {
                 try {
                     Thread.sleep(2000);
                     executor.submit(() -> {
-                        Task task = queue.poll();
-                        if (task != null) {
-                            System.out.println("Task" + task + " start exectution");
-                            task.run();
+                        Task1 task1 = queue.poll();
+                        if (task1 != null) {
+                            System.out.print("Task" + task1 + " start execution: ");
+                            task1.run();
                         }
                     });
                 } catch (InterruptedException e) {
@@ -29,14 +30,13 @@ public class Calculator {
             }
         });
         taskService.start();
+        System.out.println("Start entering your values fast and see how the thread manages to print your entries.");
 
         while (in.hasNextLine()) {
             try {
-                String[] tokens = in.nextLine().split("\\+");
-                int left = Integer.parseInt(tokens[0]);
-                int right = Integer.parseInt(tokens[1]);
-                Task task = new Task(left, right);
-                queue.add(task);
+                int value = Integer.parseInt(in.nextLine().trim());
+                Task1 task1 = new Task1(value);
+                queue.add(task1);
             } catch (Exception e) {
                 e.printStackTrace();
             }

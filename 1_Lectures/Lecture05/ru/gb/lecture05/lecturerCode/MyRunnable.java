@@ -1,4 +1,4 @@
-package ru.gb.lecture05.thread;
+package ru.gb.lecture05.lecturerCode;
 
 public class MyRunnable implements Runnable{
     @Override

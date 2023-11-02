@@ -1,10 +1,10 @@
-package ru.gb.lecture05.thread;
+package ru.gb.lecture05.lecturerCode;
 
-public class TicTac implements Runnable{
+public class TicTac1 implements Runnable{
 
     private final String bracket;
 
-    public TicTac(String bracket) {
+    public TicTac1(String bracket) {
         this.bracket = bracket;
     }
 
