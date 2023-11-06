@@ -27,7 +27,6 @@ public class Runner extends Thread{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 
     private void goToStart() throws InterruptedException {

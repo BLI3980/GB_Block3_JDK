@@ -20,7 +20,7 @@ public class Deadlock {
                 }
                 objectToLockTwo.stepOne(objectToLockOne);
             }
-        });
+        }).start();
     }
     static class ObjectToLock {
         public synchronized void stepOne(ObjectToLock object) {

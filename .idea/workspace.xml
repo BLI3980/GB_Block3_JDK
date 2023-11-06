@@ -5,17 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="Seminar 04 in progress save 03.">
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task01/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task01/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task02/MyProgramState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task02/MyThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task02/MyThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task03/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task03/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task01/myVersion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task01/myVersion/ObjectToLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task01/version01/ObjectA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task01/version01/ObjectB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task01/version01/Version01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task01/version02/Version02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/Task02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/correctVersion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/correctVersion/ProgramState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/correctVersion/ThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/correctVersion/ThreadB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/groupVersion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/myVersion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/myVersion/ThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/myVersion/ThreadB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/temp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/temp/ThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/temp/ThreadB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/ru/gb/homework05/philosophers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/ru/gb/homework05/philosophers/Task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Lectures/Lecture05/ru/gb/lecture05/handoutsCode/Deadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_Lectures/Lecture05/ru/gb/lecture05/handoutsCode/Deadlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task03/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group02/task03/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +58,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/_GB/11a_Architecture&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/_GB/12_JDK/2_Seminars/Seminar05/ru/gb/seminar05/group01/task02/correctVersion",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_GB\12_JDK\2_Seminars\Seminar05\ru\gb\seminar05\group01\task02\correctVersion" />
+      <recent name="C:\_GB\12_JDK\2_Seminars\Seminar05\ru\gb\seminar05\group01\temp" />
+      <recent name="C:\_GB\12_JDK\2_Seminars\Seminar05\ru\gb\seminar05\group01" />
       <recent name="C:\_GB\12_JDK\3_Homeworks\Homework03" />
       <recent name="C:\_GB\12_JDK\2_Seminars\Seminar02\ru\gb\jdk\seminar02\task04" />
-      <recent name="C:\_GB\12_JDK\2_Seminars\Seminar02\ru\gb\jdk\seminar02" />
-      <recent name="C:\_GB\12_JDK\1_Lectures\Lecture02\ru\gb\jdk\lecture02\bricks" />
-      <recent name="C:\_GB\12_JDK\2_Seminars\Seminar01\ru\gb\jdk\seminar01\tasks05_serverChat" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\_GB\12_JDK\2_Seminars\Seminar04" />
@@ -84,13 +96,13 @@
       <recent name="ru.jdk.lecture03.ex08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.gb.seminar05.group02.task03.Main">
+  <component name="RunManager" selected="Application.ru.gb.seminar05.group01.task02.groupVersion.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar05.group02.task01.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar05.group01.task02.myVersion.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.seminar05.group02.task01.*" />
+          <option name="PATTERN" value="ru.gb.seminar05.group01.task02.myVersion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.lecture05.handoutsCode.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lecture05.handoutsCode.Main" />
+    <configuration name="ru.gb.seminar05.group01.task02.correctVersion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar05.group01.task02.correctVersion.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lecture05.handoutsCode.*" />
+          <option name="PATTERN" value="ru.gb.seminar05.group01.task02.correctVersion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.lecture05.lecturerCode.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lecture05.lecturerCode.Main" />
+    <configuration name="ru.gb.seminar05.group01.task02.groupVersion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar05.group01.task02.groupVersion.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.lecture05.lecturerCode.*" />
+          <option name="PATTERN" value="ru.gb.seminar05.group01.task02.groupVersion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.gb.seminar05.group01.temp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar05.group01.temp.Main" />
+      <module name="_JDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.seminar05.group01.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,26 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.seminar05.group02.task03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar05.group02.task03.Main" />
-      <module name="_JDK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.seminar05.group02.task03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.gb.seminar05.group02.task03.Main" />
-        <item itemvalue="Application.ru.gb.seminar05.group02.task02.Main" />
+        <item itemvalue="Application.ru.gb.seminar05.group01.task02.groupVersion.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ru.gb.lecture05.lecturerCode.Main" />
-        <item itemvalue="Application.ru.gb.lecture05.handoutsCode.Main" />
+        <item itemvalue="Application.ru.gb.seminar05.group01.task02.correctVersion.Main" />
+        <item itemvalue="Application.ru.gb.seminar05.group02.task02.Main" />
+        <item itemvalue="Application.ru.gb.seminar05.group01.temp.Main" />
       </list>
     </recent_temporary>
   </component>
