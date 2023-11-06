@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c9a7ec-d798-4266-a9ff-8692b7d10a95" name="Changes" comment="Seminar 04 in progress save 03.">
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar05/ru/gb/seminar05/group01/task03/Task03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/ru/gb/homework05/philosophers/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/ru/gb/homework05/philosophers/Philosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/ru/gb/homework05/philosophers/PhilosopherState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework05/ru/gb/homework05/philosophers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/ru/gb/homework05/philosophers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Homeworks/Homework05/ru/gb/homework05/philosophers/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework05/ru/gb/homework05/philosophers/Task.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,7 @@
         <option value="Interface" />
         <option value="package-info" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -76,13 +80,26 @@
       <recent name="ru.jdk.lecture03.ex08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.gb.seminar05.group01.task03.Main">
+  <component name="RunManager" selected="Application.ru.gb.homework05.philosophers.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.seminar05.group01.task02.myVersion.Main" />
       <module name="_JDK" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.gb.seminar05.group01.task02.myVersion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.gb.homework05.philosophers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework05.philosophers.Main" />
+      <module name="_JDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework05.philosophers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,26 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.gb.seminar05.group02.task02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar05.group02.task02.Main" />
-      <module name="_JDK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.seminar05.group02.task02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.homework05.philosophers.Main" />
         <item itemvalue="Application.ru.gb.seminar05.group01.task03.Main" />
         <item itemvalue="Application.ru.gb.seminar05.group01.task02.groupVersion.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ru.gb.seminar05.group01.task02.correctVersion.Main" />
-        <item itemvalue="Application.ru.gb.seminar05.group02.task02.Main" />
       </list>
     </recent_temporary>
   </component>
